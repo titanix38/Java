@@ -91,6 +91,29 @@ public class Hello
 //		sommeTab(montab, 0);
 		display(montab);
 		System.out.println("Somme = "+sommeTab(montab, 0));
+		Book book1 = new Book();
+		Book book2 = new Book();
+		
+//		book1.id = 1;
+//		book1.title = "Java";
+//		book1.lang = "fr-FR";
+//		
+//		book2.id = 2;
+//		book2.title = "C#";
+//		book2.lang = "en-US";
+		
+		Book book3 = book2;
+		Book book4 = new Book();
+		
+//		book4.id = book2.id;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      		
+//		book4.title = book2.title;
+//		book4.lang = book2.lang;
+		
+		if (book4 == book2)
+			System.out.println("Livre identique");
+		else
+			System.out.println("Livre different");
+		
 	}
 
 	// +++++++++++++++++++++++++++++++++++++++++++++
