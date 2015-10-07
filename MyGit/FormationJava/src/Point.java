@@ -2,8 +2,8 @@
 public class Point
 {
 
-	public int x;
-	public int y;
+	private int x;
+	private int y;
 	
 	Point(int xOrigin,int yOrigin)
 	{
